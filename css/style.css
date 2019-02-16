@@ -1,0 +1,182 @@
+
+::selection{
+    background-color: #9833cb;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+body{
+    background-color: #020202;
+    color:white;
+}
+p{
+    color: #dcdcdc
+}
+.navbar.bg-dark {
+    background-color: #060606 !important;
+    border: 1px solid #282828
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #9933CC;
+    border-color: #9933CC
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #822bad;
+    border-color: #7a29a3
+}
+
+.btn-info:focus, .btn-info.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5)
+}
+
+.btn-info.disabled, .btn-info:disabled {
+    color: #fff;
+    background-color: #9933CC;
+    border-color: #9933CC
+}
+
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active, .show > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #7a29a3;
+    border-color: #732699
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus, .show > .btn-info.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(153, 51, 204, 0.5)
+}
+h1, .h1 {
+    font-size: 4rem
+}
+
+h2, .h2 {
+    font-size: 3rem
+}
+
+h3, .h3 {
+    font-size: 2.5rem
+}
+
+h4, .h4 {
+    font-size: 2rem
+}
+
+h5, .h5 {
+    font-size: 1.5rem
+}
+
+h6, .h6 {
+    font-size: 0.875rem
+}
+.navbar-dark .navbar-brand{
+     color: #7a29a3; !important;
+ }
+div.main-header{
+
+    background: url("../img/mainbg.jpg"), no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 45vh;
+    padding-bottom: 40vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    background-color: #762b92;
+
+
+}
+header{
+    background-color: #762b92;
+}
+a {
+    color: #860e7a;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+    color: #860e7a;
+    text-decoration: underline
+}
+.m-t100{
+    margin-top:100px;
+}
+.m-t50{
+    margin-top:50px;
+}
+.m-t20{
+    margin-top:50px;
+}
+.p-t50{
+    padding-top:50px;
+}
+
+.title{
+    color: #4f1f65;
+
+}
+.subtitle{
+    color: white;
+}
+.port{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+.portimg{
+    margin-right:5vw;
+    margin-top:5vw;
+}
+.phone{
+    min-height: 40vh;
+    background-color: #772b93;
+    color:white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
+}
+a.PhoneLink{
+    font-size: 2em;
+    color:white
+}
+a.PhoneLink:hover{
+    color: #b295b8
+}
+.aboutus{
+    background-color: #772b93;
+    color:white;
+    padding: 10vh 0;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+#MainHeader{
+    -webkit-animation-duration: 2s;
+}
+#MainSubHeader{
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+}
+#MainButton{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+}
+#MainNavbar{
+    -webkit-animation-delay: 3s;
+}
+#port{
+    -webkit-animation-duration: 1s;
+
+}
+#aboutus{
+    -webkit-animation-duration: 1s;
+}
+#contact{
+    -webkit-animation-duration: 1s;
+}
